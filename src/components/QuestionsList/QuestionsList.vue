@@ -1,5 +1,5 @@
 <template>
-  <!-- START FIRST SECTION -->
+  <!-- START QUESTION LIST AREA -->
   <section>
     <v-row class="mt-5" justify="space-between" align="space-between">
       <v-col justify="space-between" align="space-between">
@@ -147,6 +147,10 @@ export default {
 
   methods: {
     handleAnswers: function (index) {
+      /**
+       * @param {Int} index,
+       * Função responsável realizar o controle das respostas escolhidas pelo usuário
+       */
       this.choice = index;
       if (this.choices[index].isTrue) {
         this.color = "#57e71d";
@@ -160,6 +164,9 @@ export default {
     },
 
     rightQuestion: function () {
+      /**
+       * Função responsável por avançar no jogo, caso escolha-se a resposta correta
+       */
       var next = parseInt(this.$route.params.questionId) + 1;
       this.choice = null;
       this.$router.push(`/questions/${next}`);
@@ -168,12 +175,19 @@ export default {
     },
 
     wrongQuestion: function () {
+      /**
+       * Função responsável por finalizar o jogo, caso escolha-se a resposta errada
+       */
       this.replaceState();
       this.playAudio(false);
       this.dialog = true;
     },
 
     getHalf: function (index) {
+      /**
+       * @param {Int} index,
+       * Função responsável por reduzir as opções pela metade
+       */
       var next = parseInt(this.$route.params.questionId) + 1;
       this.choice = null;
       var choices = this.questions[next - 2].choices;
@@ -188,6 +202,10 @@ export default {
     },
 
     getCallHelp: function (index) {
+      /**
+       * @param {Int} index,
+       * Função responsável obter a resposta sugerida pela ligação e salva-la no state do Vuex
+       */
       var next = parseInt(this.$route.params.questionId) + 1;
       this.choice = null;
       var choices = this.questions[next - 2].choices;
@@ -202,6 +220,10 @@ export default {
     },
 
     getProbability: function (index) {
+      /**
+       * @param {Int} index,
+       * Função responsável obter as respostas sugeridas pela platéia e salva-las no state do Vuex
+       */
       var next = parseInt(this.$route.params.questionId) + 1;
       this.choice = null;
       var choices = this.questions[next - 2].choices;
@@ -213,15 +235,14 @@ export default {
         ["C", choices[2].probability],
         ["D", choices[3].probability],
       ];
-      console.log(temp);
-
       this.updateChartData(temp);
-
-      //this.onCallHelp = temp;
       this.buttons[index].isDisabled = true;
     },
 
     replaceState: function () {
+      /**
+       * Função responsável por restaurar os padrões dos estados do Vuex
+       */
       this.$store.replaceState({
         chartData: [
           ["Alternativas", "Porcentagem de votos da platéia"],
@@ -235,6 +256,10 @@ export default {
     },
 
     playAudio: function (option) {
+      /**
+       * @param {Boolean} option,
+       * Função responsável por realizar o controle do player de audio do game durante a tela inicial
+       */
       if (option) {
         this.audio.play();
       } else {

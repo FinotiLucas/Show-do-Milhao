@@ -9,7 +9,7 @@
 
   
 
-<img  src="https://media.giphy.com/media/nbX0ijnZwU33wY6Wwo/giphy.gif"/><br>
+<img src="./src/assets/screenshots/1.png" /><br>
 
   
 
@@ -57,18 +57,13 @@
   
 
 </p>
-
-  
-
-  
-
-
-
-  
-  
+ 
 
 <br>
 
+## Demonstração online
+
+https://desafioshowdomilhao.netlify.app/
   
 
 ## 1) Definição do Desafio :muscle:
@@ -81,41 +76,36 @@ Eles sairão para uma viagem na próxima semana. Para manter a cultura familiar,
 Como não conseguiram encontrar o jogo disponível para computador, cabe a você a ​ missão de
 desenvolver esse jogo para fazer a felicidade da família na viagem!
 
-
-## 2) Funcionaliadades implementadas
-- Reduzir as alternativas a metade (50/50)
-- Pedir ajuda por telefone;
-- Ver a opnião da platéia quanto as alternativas.
-
-## 3) Tecnologias usadas :rocket:
+## 2) Tecnologias usadas :rocket:
 Este projeto foi desenvolvido com as seguintes tecnologias:
 - [VueJS](https://vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/)
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Google Charts](https://developers.google.com/chart/)
 
+## 3) Funcionaliadades implementadas
+- Reduzir as alternativas a metade (50/50)
+- Pedir ajuda por telefone;
+- Ver a opnião da platéia quanto as alternativas.
 
 ## 4) Screenshots
 
 <p align="center">
-  <img src="./src/assets/screenshots/0.png" />
+  <img src="./src/assets/screenshots/1.png" />
 
-  <img src="./src/assets/screenshots/1.png"/>
+  <img src="./src/assets/screenshots/2.png"/>
+
+  <img src="./src/assets/screenshots/3.png"/>
 </p>
 
 
-## Demonstração online
-
-https://desafioshowdomilhao.netlify.app/
-
-
-## Vídeo Tutorial
+## 5) Vídeo Tutorial
 
 [<img src="https://img.youtube.com/vi/Nefhor-MDs8/maxresdefault.jpg" width="100%" height="512">](https://youtu.be/Nefhor-MDs8)
 
 
 
-## Como instalar
+## 6) Como instalar
 
 ```
 npm install
@@ -126,7 +116,7 @@ npm install
 npm run serve
 ```
 
-### Estrutura do json com as perguntas
+### 7) Estrutura do json com as perguntas
 ``` json
 {
   "id": 14,

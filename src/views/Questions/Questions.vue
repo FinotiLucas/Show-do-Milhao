@@ -46,6 +46,9 @@ export default {
   },
   methods: {
     replaceState: function () {
+      /**
+       * Função responsável por restaurar os padrões dos estados do Vuex
+       */
       this.$store.replaceState({
         chartData: [
           ["Alternativas", "Porcentagem de votos da platéia"],

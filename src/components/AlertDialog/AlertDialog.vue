@@ -1,5 +1,6 @@
 <template>
   <v-row justify="center">
+    <!-- START DIALOG -->
     <v-dialog v-model="dialog" persistent max-width="512">
       <v-card>
         <v-card-title class="headline"
@@ -17,6 +18,7 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
+    <!-- END DIALOG -->
   </v-row>
 </template>
 
@@ -39,6 +41,9 @@ export default {
   },
   methods: {
     wrongQuestion: function () {
+      /**
+       * Função responsável por finalizar o jogo caso o jogador escolha a opção errada
+       */
       this.dialog = false;
       this.$router.push(`/`);
     },

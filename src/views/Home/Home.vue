@@ -26,7 +26,7 @@
       </section>
       <!-- END FIRST SECTION -->
 
-      <!-- START ABOUT ME AREA -->
+      <!-- START ABOUT AREA -->
       <section
         id="about-me"
         class="about-me section_horizontal_padding_40 text-start"
@@ -63,14 +63,12 @@
           </v-col>
         </v-row>
       </section>
-      <!-- START ABOUT ME AREA -->
+      <!-- END ABOUT AREA -->
     </div>
   </v-app>
 </template>
 
 <script>
-//tema-de-abertura.mp3
-
 export default {
   data() {
     return {
@@ -93,6 +91,10 @@ export default {
   },
   methods: {
     playAudio: function (option) {
+      /**
+       * @param {Boolean} option,
+       * Função responsável por realizar o controle do player de audio do game durante a tela inicial
+       */
       if (option) {
         this.audio.play();
       } else {
@@ -103,6 +105,9 @@ export default {
       }
     },
     startGame: function () {
+      /**
+       * Função responsável por começar o jogo e pausar a música
+       */
       this.playAudio(false);
       this.$router.push("/questions/1");
     },

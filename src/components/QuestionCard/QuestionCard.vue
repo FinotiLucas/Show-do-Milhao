@@ -1,5 +1,5 @@
 <template>
-  <!-- START FIRST SECTION -->
+  <!-- START QUESTION CARD AREA -->
   <section class="mt-100">
     <v-card
       class="mx-auto mt-10 mr-10 ml-10"
@@ -14,7 +14,7 @@
       </p>
     </v-card>
   </section>
-  <!-- END FIRST SECTION -->
+  <!-- END QUESTION CARD AREA -->
 </template>
 
 <script>

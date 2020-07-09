@@ -1,9 +1,11 @@
 <template>
+  <!-- START FOOTER AREA-->
   <v-footer class="justify-center" :color="color">
     <div class="text-color text-center">
       &copy; Lucas Finoti — {{ new Date().getFullYear() }}, All rights reserved
     </div>
   </v-footer>
+  <!-- END FOOTER AREA -->
 </template>
 
 <script>

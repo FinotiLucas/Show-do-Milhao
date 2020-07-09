@@ -1,5 +1,5 @@
 <template>
-  <!-- START FIRST SECTION -->
+  <!-- START THE HELPER CARD AREA -->
   <section class="mt-100">
     <v-card
       class="mx-auto mt-10 mr-10 ml-10"
@@ -17,7 +17,7 @@
       </v-row>
     </v-card>
   </section>
-  <!-- END FIRST SECTION -->
+  <!-- END THE HELPER CARD AREA -->
 </template>
 
 <script>
@@ -31,6 +31,9 @@ export default {
   data() {
     return {
       chartOptions: {
+        /**
+         * Configurações do google chart
+         */
         chart: {
           title: "Porcentagem de votos da platéia",
         },
@@ -40,6 +43,9 @@ export default {
   },
   computed: {
     ...mapState({
+      /**
+       * Mapstate
+       */
       chartData: (state) => state.chartData,
       callHelp: (state) => state.callHelp,
     }),
