@@ -1,0 +1,531 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 0,
+        "question": "Qual bicho transmite Doença de Chagas?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Abelha",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 1
+          },
+          {
+            "answer": "Barata",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 10
+          },
+          {
+            "answer": "Pulga",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 15
+          },
+          {
+            "answer": "Barbeiro",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 74
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "question": "Qual fruto é conhecido no Norte e Nordeste como 'jerimum'?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Caju",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 9
+          },
+          {
+            "answer": "Abóbora",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 68
+          },
+          {
+            "answer": "Chuchu",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 22
+          },
+          {
+            "answer": "Côco",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é o coletivo de cães?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Matilha",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 68
+          },
+          {
+            "answer": "Rebanho",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 11
+          },
+          {
+            "answer": "Alcateia",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 19
+          },
+          {
+            "answer": "Manada",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é o triângulo que tem todos os lados diferentes?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Equilátero",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          },
+          {
+            "answer": "Isóceles",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 11
+          },
+          {
+            "answer": "Escaleno",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 87
+          },
+          {
+            "answer": "Trapézio",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 2
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Quem compôs o Hino da Independência?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Dom Pedro I",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 76
+          },
+          {
+            "answer": "Manuel Bandeira",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          },
+          {
+            "answer": "Castro Alvez",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 12
+          },
+          {
+            "answer": "Carlos Gomes",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 12
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é o antônimo de 'malograr'?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Perder",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          },
+          {
+            "answer": "Fracassar",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Conseguir",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 76
+          },
+          {
+            "answer": "Desprezar",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Em que país nasceu Carmem Miranda?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Brasil",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 50
+          },
+          {
+            "answer": "Espanha",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          },
+          {
+            "answer": "Portugal",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 50
+          },
+          {
+            "answer": "Argentina",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual foi o último Presidente do período da ditadura militar no Brasil?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Costa e Silva",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          },
+          {
+            "answer": "João Figueiredo",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 76
+          },
+          {
+            "answer": "Ernesto Geisel",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Emílio Médici",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Seguindo a sequência do baralho, qual carta vem depois do dez?",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Rei",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          },
+          {
+            "answer": "Valete",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 76
+          },
+          {
+            "answer": "Nove",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Ás",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 0
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "O adjetivo 'venoso' está relacionado a: ",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Vela",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 3
+          },
+          {
+            "answer": "Vento",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Vênia",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 35
+          },
+          {
+            "answer": "Veia",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 38
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Que nome se dá à purificação por meio da água? ",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Abolição",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 3
+          },
+          {
+            "answer": "Abnegação",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Abluição",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 38
+          },
+          {
+            "answer": "Abrupção",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Qual montanha se localiza entre a fronteira do Tibet com o Nepal? ",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Monte Everest",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 38
+          },
+          {
+            "answer": "Monte Carlo",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Monte Fuji",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 3
+          },
+          {
+            "answer": "Monte Branco",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Em que parte do corpo se encontra a epiglote? ",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Estômago",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 38
+          },
+          {
+            "answer": "Pâncreas",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Rim",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 3
+          },
+          {
+            "answer": "Boca",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "A compensação por perda é chamada de... ",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "Déficit",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 0
+          },
+          {
+            "answer": "Idenização",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 41
+          },
+          {
+            "answer": "Indexação",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 24
+          },
+          {
+            "answer": "Indébito",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "A pergunta valendo 1 milhão de reais é: Em que dia nasceu e em que dia foi registrado o Ex-Presidente Lula? ",
+        "difficulty": 0,
+        "choices": [
+          {
+            "answer": "6 e 27 de outubro",
+            "isTrue": true,
+            "isOnHalf": true,
+            "isOnCallHelp": false,
+            "probability": 38
+          },
+          {
+            "answer": "8 e 27 de outubro",
+            "isTrue": false,
+            "isOnHalf": true,
+            "isOnCallHelp": true,
+            "probability": 35
+          },
+          {
+            "answer": "9 e 26 de outubro",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 3
+          },
+          {
+            "answer": "7 e 23 de outubro",
+            "isTrue": false,
+            "isOnHalf": false,
+            "isOnCallHelp": false,
+            "probability": 24
+          }
+        ]
+      }
+    ]
+  }
+}
