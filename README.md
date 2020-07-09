@@ -86,7 +86,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ## 3) Funcionaliadades implementadas
 - Reduzir as alternativas a metade (50/50)
 - Pedir ajuda por telefone;
-- Ver a opnião da platéia quanto as alternativas.
+- Ver a opinião da platéia quanto as alternativas.
 
 ## 4) Screenshots
 
