@@ -101,7 +101,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 5) Vídeo Tutorial
 
-[<img src="https://img.youtube.com/vi/Nefhor-MDs8/maxresdefault.jpg" width="100%" height="512">](https://youtu.be/Nefhor-MDs8)
+[<img src="https://img.youtube.com/vi/sX5HFy6-8_w/maxresdefault.jpg" width="100%" height="512">](https://youtu.be/sX5HFy6-8_w)
 
 
 
